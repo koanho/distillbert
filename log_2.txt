@@ -1,0 +1,11 @@
+########## Training downstream teacher MRPC ##########
+Epoch: 0 val_Accuracy: 0.684
+Epoch: 1 val_Accuracy: 0.693
+Epoch: 2 val_Accuracy: 0.708
+Epoch: 3 val_Accuracy: 0.707
+Epoch: 4 val_Accuracy: 0.715
+Epoch: 5 val_Accuracy: 0.702
+Epoch: 6 val_Accuracy: 0.71
+Epoch: 7 val_Accuracy: 0.661
+Epoch: 8 val_Accuracy: 0.702
+Epoch: 9 val_Accuracy: 0.695

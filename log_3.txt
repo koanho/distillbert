@@ -1,0 +1,34 @@
+########## train control wiki ##########
+Epoch: 0 val_Accuracy: 1.0
+Epoch: 1 val_Accuracy: 1.0
+Epoch: 2 val_Accuracy: 1.0
+Epoch: 3 val_Accuracy: 1.0
+Epoch: 4 val_Accuracy: 1.0
+Epoch: 5 val_Accuracy: 1.0
+Epoch: 6 val_Accuracy: 1.0
+Epoch: 7 val_Accuracy: 1.0
+Epoch: 8 val_Accuracy: 0.88
+Epoch: 9 val_Accuracy: 0.882
+Epoch: 10 val_Accuracy: 0.88
+Epoch: 11 val_Accuracy: 0.911
+Epoch: 12 val_Accuracy: 1.0
+Epoch: 13 val_Accuracy: 1.0
+Epoch: 14 val_Accuracy: 1.0
+Epoch: 15 val_Accuracy: 1.0
+Epoch: 16 val_Accuracy: 1.0
+Epoch: 17 val_Accuracy: 1.0
+Epoch: 18 val_Accuracy: 1.0
+Epoch: 19 val_Accuracy: 0.879
+########## train control mrpc ##########
+Downloading and preparing dataset glue/mrpc (download: 1.43 MiB, generated: 1.43 MiB, post-processed: Unknown size, total: 2.85 MiB) to /home/koanholee/.cache/huggingface/datasets/glue/mrpc/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad...
+Dataset glue downloaded and prepared to /home/koanholee/.cache/huggingface/datasets/glue/mrpc/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad. Subsequent calls will reuse this data.
+Epoch: 0 val_Accuracy: 0.684
+Epoch: 1 val_Accuracy: 0.684
+Epoch: 2 val_Accuracy: 0.684
+Epoch: 3 val_Accuracy: 0.684
+Epoch: 4 val_Accuracy: 0.684
+Epoch: 5 val_Accuracy: 0.684
+Epoch: 6 val_Accuracy: 0.684
+Epoch: 7 val_Accuracy: 0.684
+Epoch: 8 val_Accuracy: 0.684
+Epoch: 9 val_Accuracy: 0.684
