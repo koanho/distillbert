@@ -430,19 +430,20 @@ def main():
     device = 'cuda'
     os.environ["CUDA_VISIBLE_DEVICES"] = '0,6'
     
-    #print("#"*10, "Training Teacher", "#"*10)
-    #train_teacher_wiki(device)
+    print("#"*10, "Training Teacher", "#"*10)
+    train_teacher_wiki(device)
 
-    #print("#"*10, "Training Student", "#"*10)
-    #train_student_wiki(device)
+    print("#"*10, "Training Student", "#"*10)
+    train_student_wiki(device)
 
-    #print("#"*10, "Training downstream Student MRPC", "#"*10)
+    print("#"*10, "Training downstream Student MRPC", "#"*10)
     ## downstream task MRPC ###
-    #train_mrpc(device)
+    train_mrpc(device)
 
-    #print("#"*10, "Training downstream teacher MRPC", "#"*10)
-    #train_teacher_mrpc(device)
-
+    print("#"*10, "Training downstream teacher MRPC", "#"*10)
+    train_teacher_mrpc(device)
+    
+    print("#"*10, "Training Control Model", "#"*10)
     train_control(device)
 
 if __name__ == '__main__':
